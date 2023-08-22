@@ -14,10 +14,12 @@
 	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body class="bg-gradient-to-br from-[#383a57] to-[#1d1b32] flex items-center justify-center min-h-screen">
-	<section class="bg-[#191932] rounded-md w-full max-w-[1084px] text-[#afb1ca]">
-        <h1 class="py-10 text-2xl font-semibold text-center border-b border-[#333452]">Optional Features and Services</h1>
-        <ul class="flex flex-wrap items-center justify-center">
-            <li class="w-full sm:w-[50%] md:w-[28%] border-b md:border-b-0 border-r-0 md:border-r border-[#333452] text-center py-4 self-stretch">
+	<section class="bg-[#191932] relative backdrop-blur-md bg-opacity-100 rounded-md w-full max-w-[1084px] text-[#afb1ca] overflow-hidden">
+        <div class="w-[400px] aspect-square fixed bg-red-300/10 rounded-full top-1/2 -left-[15%] -bottom-[20%] blur-3xl -z-10"></div>
+        <div class="w-[400px] aspect-square fixed bg-blue-300/20 rounded-full -top-[20%] -right-[20%] blur-3xl -z-10"></div>
+        <h1 class="py-10 text-2xl font-semibold text-center border-b border-[#0f1029]">Optional Features and Services</h1>
+        <ul class="flex flex-wrap items-center justify-center md:flex-nowrap">
+            <li class="w-full sm:w-[50%] md:w-[28%] border-b md:border-b-0 border-r-0 md:border-r border-[#0f1029] text-center py-4 self-stretch">
                 <h2 class="font-semibold tex-sm">Email Distribution</h2>
                 <h3 class="mt-4 mb-1 text-4xl font-semibold">$7</h3>
                 <small class="opacity-50">per month</small>
@@ -29,7 +31,7 @@
                     Add to Cart
                 </button>
             </li>
-            <li class="w-full sm:w-[50%] md:w-[28%] border-b md:border-b-0 border-r-0 md:border-r border-[#333452] text-center py-4 self-stretch">
+            <li class="w-full sm:w-[50%] md:w-[28%] border-b md:border-b-0 border-r-0 md:border-r border-[#0f1029] text-center py-4 self-stretch">
                 <h2 class="font-semibold tex-sm">Analytics</h2>
                 <h3 class="mt-4 mb-1 text-4xl font-semibold">$5</h3>
                 <small class="opacity-50">per month</small>
@@ -41,10 +43,31 @@
                 </button>
             </li>
             <li class="self-stretch grow">
-                <ul>
-                    <li class="flex items-center justify-center gap-4 py-6 pl-10 pr-4 border-b border-[#333452]">
+                <ul class="flex flex-col items-center justify-center w-full h-full">
+                    <li class="flex items-center justify-center gap-4 py-6 pl-5 pr-4 border-b border-[#0f1029] shrink-0 w-full">
                         <span class="grow">Email Distribution Analysis</span>
-                        <span class="">$12 <small>/mo</small></span>
+                        <span class="shrink-0">$12 <small class="opacity-50">/mo</small></span>
+                        <button class="px-6 py-1 border border-[#383a57] rounded-full transition-all duration-150 ease-in hover:bg-[#383a57]">
+                            Add to Cart
+                        </button>
+                    </li>
+                    <li class="flex items-center justify-center gap-4 py-6 pl-5 pr-4 border-b border-[#0f1029] shrink-0 w-full">
+                        <span class="grow">Email Distribution Analysis</span>
+                        <span class="shrink-0">$12 <small class="opacity-50">/mo</small></span>
+                        <button class="px-6 py-1 border border-[#383a57] rounded-full transition-all duration-150 ease-in hover:bg-[#383a57]">
+                            Add to Cart
+                        </button>
+                    </li>
+                    <li class="flex items-center justify-center gap-4 py-6 pl-5 pr-4 border-b border-[#0f1029] shrink-0 w-full">
+                        <span class="grow">Email Distribution Analysis</span>
+                        <span class="shrink-0">$12 <small class="opacity-50">/mo</small></span>
+                        <button class="px-6 py-1 border border-[#383a57] rounded-full transition-all duration-150 ease-in hover:bg-[#383a57]">
+                            Add to Cart
+                        </button>
+                    </li>
+                    <li class="flex items-center justify-center w-full gap-4 py-6 pl-5 pr-4 shrink-0">
+                        <span class="grow">Email Distribution Analysis</span>
+                        <span class="shrink-0">$12 <small class="opacity-50">/mo</small></span>
                         <button class="px-6 py-1 border border-[#383a57] rounded-full transition-all duration-150 ease-in hover:bg-[#383a57]">
                             Add to Cart
                         </button>
